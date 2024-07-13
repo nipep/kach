@@ -1,0 +1,17 @@
+.trainingItem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 44px 25px;
+    background-color: #242426;
+    border-radius: 13px;
+
+    &__title{
+        color: #E3E3E3;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+

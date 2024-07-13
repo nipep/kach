@@ -1,0 +1,29 @@
+.exerciseItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #242426;
+  margin-bottom: 25px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    margin-left: 25px;
+    color: #e3e3e3;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__suptitle {
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

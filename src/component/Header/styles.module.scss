@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  
+    &__list {
+      display: flex;
+      flex-direction: row;
+      padding: 0 25px;
+    }
+  
+    &__item {
+      padding: 0 25px;
+      color: #fd4f00;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }

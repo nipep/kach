@@ -1,0 +1,23 @@
+.trainingAdd {
+  &__header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    color: #fd4f00;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__list {
+    margin-bottom: 15px;
+  }
+
+  &__finish {
+    display: flex;
+    justify-content: center;
+  }
+}

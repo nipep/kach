@@ -1,0 +1,22 @@
+.setItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 44px 25px;
+  background-color: #242426;
+  border-radius: 13px;
+
+  &__title {
+    color: #e3e3e3;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__suptitle{
+    color: #e3e3e3;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
